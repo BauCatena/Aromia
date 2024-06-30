@@ -229,18 +229,20 @@ main{
 }
 .filtros-container{
     width: 35%;
+    padding: 4rem 0 0 2rem;
+
 }
 .filtros{
     list-style-type: none;
+    justify-content: center;
+    align-items: center;
     
 }
 .catalogo-container{
     display: flex;
     flex-flow: row wrap;
     margin: 2rem;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around; 
 }
 
 
