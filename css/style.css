@@ -9,24 +9,7 @@
     margin: 0%;
     font-family: "Lexend";
 }
-
-/*Preguntas
-
-    ¿Cómo hago para que el header no me haga scroll horizontal
-    y mantenga la forma que tiene?
-
-    Importar imágenes circulares
-        border-radius hasta que quede redonda
-
-    En el index, hacer el wrap con filas de a 3 imágenes linea 159 
-    .nav-alternative-container
-
-*/
-
-
 /*Plantillas del código*/
-
-
 /*Tarjeta de los productos*/
 .product-container{
     border: 1px black solid;
@@ -44,43 +27,28 @@
     justify-content: left;
     display: flex;
     flex-direction: row;
-    
 }
 .product-link{
     justify-content: end;
     display: flex;
     flex-direction: row;
 }
-
-
-
 a{
     color: #000000;
 }
-
-
-
 /*Títulos*/
-
-
-
 .heading{
     display: flex;
     justify-content: center;
     font-size: 3rem;
     margin-top: 0%;
-    grid-area: heading;
     text-align: center;
 }
-
-
-
 /*Header*/
-
 header{
     padding-bottom: 1rem;
     border-bottom: 1px gray solid;
-    background-color: #ffc0f7;
+    background-color: rgb(245, 222, 179);
     display: flex;
     flex-direction: column;
 }
@@ -104,38 +72,34 @@ header .top-header .mi-cuenta-container{
 header .top-header .logo{
     height: 4rem;
     width: 4rem;
+    border-radius: 50%;
 }
 header .top-header .mi-cuenta{
     height: 4rem;
     width: 4rem;
 }
 .navbar{
-    background-color:rgb(255, 192, 247);
-       
+    background-color:rgb(245, 222, 179);
 }
 .navbar-1{
-    max-width: 15rem;
-    
+    max-width: 15rem;  
 }
 .bg-clr {
     --bs-bg-opacity: 1;
-    background-color: rgba(255, 192, 247), var(--bs-bg-opacity) !important;
+    background-color: rgba(245, 222, 179), var(--bs-bg-opacity) !important;
   }
 header .nav-container{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
 header .nav-container a{
     text-decoration: none;
 }
-
-
 /*Footer*/
 footer{
     border-top: 1px black solid;
-    background-color: wheat;
+    background-color:#f5deb3;
     display: flex;
     flex-direction: column;
 }
@@ -161,23 +125,15 @@ footer .call-to-action{
     width: 33%;
     align-items: flex-end;
 }
-
-
-
-
-
 /*INDEX*/
-
 main{
     margin: 0%;
     padding: 0%;
     padding-bottom: 2rem;
 }
-
 .carousel-inner{
     height: 30rem;
 }
-
 .nav-alternative-container{
     border-top: 1px #000000 solid;
     display: flex;
@@ -204,8 +160,7 @@ main .heading-alternative{
 }
 main .heading-alternative img{
     max-width: 5rem;
-    padding-right: 1rem;
-    
+    padding-right: 1rem;  
 }
 .trending{
     display: flex;
@@ -216,25 +171,7 @@ main .heading-alternative img{
 .trending .product-container{
     margin: 1rem;
 }
-.instragram{
-    display: flex;
-    text-decoration: line-through 1rem red;
-    justify-content: center;
-    padding: 5px;
-}
-.instragram a{
-    color:wheat
-}
-
-
-
-
 /*PRODUCTOS*/
-
-
-
-
-
 .products{
     display: flex;
     align-items: stretch;
@@ -242,13 +179,11 @@ main .heading-alternative img{
 .filtros-container{
     width: 35%;
     padding: 4rem 0 0 2rem;
-
 }
 .filtros{
     list-style-type: none;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 .catalogo-container{
     display: flex;
@@ -256,21 +191,11 @@ main .heading-alternative img{
     margin: 2rem;
     justify-content: space-around; 
 }
-
-
-
-
-
 /*EVENTOS*/
-
-
-
-
-
 .explain-container{
     display: flex;
     flex-direction: row;
-    background-color: wheat;
+    background-color: #f5deb3;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -335,7 +260,6 @@ main .event-exp{
     header .top-header .nombre-empresa .logo{
         display: none;
     }
-    
     main .carousel-container{
         padding: 0rem;
         width: 100%;
