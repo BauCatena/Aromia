@@ -260,6 +260,15 @@ main .event-exp{
     header .top-header .nombre-empresa .logo{
         display: none;
     }
+    footer .main-footer{
+        flex-direction: column-reverse;
+    }
+    footer .main-footer .left-content{
+        flex-flow: row;
+    }
+    footer .main-footer .right-content{
+        align-items: flex-start;
+    }
     main .carousel-container{
         padding: 0rem;
         width: 100%;
@@ -267,12 +276,14 @@ main .event-exp{
     }
     .nav-alternative-container{
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
     }
     .nav-alternative-container .nav-alternative{
+        display: flex;
+        width: 45%;
+    }
+    .nav-alternative-container .nav-alternative a .nav-alternative-img{
         width: auto;
+        height: auto;
     }
     .products{
         flex-direction: column;
