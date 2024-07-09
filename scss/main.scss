@@ -1,0 +1,13 @@
+//reset
+@import "./settings/_reset.scss";
+@import "./settings/_bs.scss";
+//layout
+@import "./_header.scss";
+@import "./_footer.scss";
+@import "./_index-style.scss";
+@import "./_products-style.scss";
+@import "./_events-style.scss";
+//modules
+@import "./modules/_card-product.scss";
+// media queries
+@import "./settings/_mq.scss";

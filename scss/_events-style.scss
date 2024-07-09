@@ -1,0 +1,39 @@
+.explain-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f5deb3;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    .explain-content{
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.exp{
+    padding: 1.5rem;
+}
+main .event-exp{
+    justify-content: center;
+    text-align: center;
+}
+.events-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem 1rem 3rem 1rem;
+    .event{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .event-img{
+            max-width: 4rem;
+        }
+    }
+}
+main .text{
+    padding-top: 1rem;
+    text-align: center;
+}

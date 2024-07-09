@@ -1,0 +1,95 @@
+@media(width >1024px){
+    /*desktop*/
+    main .products .filtros-container .navbar{
+        display: none;
+    }
+    header .top-header .navbar-1 .container{
+        display: none;
+    }
+}
+@media (width <= 1024px){
+    /*Tablet*/
+    main .filtros{
+        display: none;
+    }
+    main .center-h{
+        padding: 2rem;
+    }
+    main .heading-alternative img{
+        display: none;
+    }
+}
+@media (width <=480px){
+    main{
+        background-color: beige;
+    }
+    header .top-header
+        {
+            .nombre-empresa .logo{
+                display: none;
+        }
+        .navbar-1 .container-fluid{
+            display: none;
+        }
+    }
+    footer .main-footer{
+        flex-direction: column-reverse;
+        .left-content{
+            flex-flow: row;
+        }
+        .right-content{
+            align-items: flex-start;
+        }
+    }
+    main .carousel-container{
+        padding: 0rem;
+        width: 100%;
+        height: auto;
+    }
+    main .nav-alternative-container{
+        display: flex;
+        .nav-alternative{
+            display: flex;
+            width: 45%;
+        }
+        a .nav-alternative-img{
+            width: auto;
+            height: auto;
+        }
+    }
+    main .products{
+        flex-direction: column;
+        align-items: center;
+        .filtros-container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .navbar{
+                width: 60%;
+            }
+        }
+    }
+    main .center-h .heading{
+        font-size: 1.5rem;
+    }
+    main .explain-container{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        .img-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 90%;
+            }
+        }
+    }
+    main .events-container{
+        flex-wrap: wrap;
+        .event{
+            width: 100%;
+            padding: 2rem 2rem;
+        }
+    }
+}

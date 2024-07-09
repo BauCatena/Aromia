@@ -1,0 +1,51 @@
+header{
+    padding-bottom: 1rem;
+    border-bottom: 1px gray solid;
+    background-color: rgb(245, 222, 179);
+    display: flex;
+    flex-direction: column;
+    .top-header {
+        padding: 2rem;
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        .nombre-empresa{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .mi-cuenta-container{
+            height: auto;
+            width: 15rem;
+        }
+        .logo{
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+        }
+        .mi-cuenta{
+            height: 4rem;
+            width: 4rem;
+        }
+        .navbar-1{
+            max-width: 15rem;  
+        }
+        .bg-clr {
+            --bs-bg-opacity: 1;
+            background-color: rgba(245, 222, 179), var(--bs-bg-opacity) !important;
+          }
+        .navbar{
+            background-color:rgb(245, 222, 179);
+        }
+    }
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly; 
+        a{
+            text-decoration: none;
+        }
+    }
+}

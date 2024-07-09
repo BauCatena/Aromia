@@ -1,0 +1,43 @@
+main{
+    margin: 0%;
+    padding: 0%;
+    padding-bottom: 2rem;
+    .nav-alternative-container{
+        border-top: 1px #000000 solid;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        height: auto ;
+        padding: 2rem 0 2rem 0;
+        gap: 1rem;
+        .nav-alternative{
+            display: flex;
+            justify-content: center;
+            height: auto;
+            width: 30%;
+            a img{
+                width: 18rem;
+            }
+        }
+    }
+    .heading-alternative{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        img{
+            max-width: 5rem;
+            padding-right: 1rem;  
+        }
+    }
+    .trending{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        .product-container{
+            margin: 1rem;
+        }
+    }
+}
+

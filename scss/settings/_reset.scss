@@ -1,0 +1,21 @@
+.lexend-font {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Lexend";
+}
+a{
+  color: #000000;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-top: 0%;
+  text-align: center;
+}
