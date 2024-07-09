@@ -1,0 +1,13 @@
+$beige: rgb(245, 222, 179);
+@mixin flex-row{
+    display: flex; 
+    flex-direction: row;
+}
+@mixin flex-column{
+    display: flex; 
+    flex-direction: column;
+}
+@mixin center{
+    align-items: center;
+    justify-content: center;
+}

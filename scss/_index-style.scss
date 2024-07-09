@@ -21,18 +21,15 @@ main{
         }
     }
     .heading-alternative{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        @include flex-row;
+        @include center;
         img{
             max-width: 5rem;
             padding-right: 1rem;  
         }
     }
     .trending{
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         justify-content: center;
         flex-wrap: wrap;
         .product-container{

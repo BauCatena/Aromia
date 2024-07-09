@@ -49,8 +49,7 @@
     main .nav-alternative-container{
         display: flex;
         .nav-alternative{
-            display: flex;
-            flex-direction: column;
+           @include flex-column;
             width: 45%;
             a {
                 width: 100%;
@@ -62,7 +61,7 @@
         }
     }
     main .products{
-        flex-direction: column;
+        @include flex-column;
         align-items: center;
         .filtros-container{
             width: 100%;
@@ -77,13 +76,11 @@
         font-size: 1.5rem;
     }
     main .explain-container{
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         text-align: justify;
         .img-container{
             display: flex;
-            justify-content: center;
-            align-items: center;
+            @include center;
             img{
                 width: 90%;
             }

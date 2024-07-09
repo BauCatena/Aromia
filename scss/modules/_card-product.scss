@@ -1,9 +1,8 @@
 .product-container{
     border: 1px black solid;
     padding: 1rem;
-    display: flex;
+    @include flex-column;
     display: inline-block;
-    flex-direction: row;
     margin: 1rem;
     .product-image{
         justify-content: center;
@@ -11,12 +10,10 @@
     }
     .product-text{
         justify-content: left;
-        display: flex;
-        flex-direction: row;
+        @include flex-column;
     }
     .product-link{
         justify-content: end;
-        display: flex;
-        flex-direction: row;
+        @include flex-column;
     }
 }

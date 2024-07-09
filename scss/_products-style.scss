@@ -14,8 +14,7 @@ main{
         }
         .filtros{
             list-style-type: none;
-            justify-content: center;
-            align-items: center; 
+            @include center;
         }
     }
 } 

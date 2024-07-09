@@ -1,19 +1,16 @@
 header{
     padding-bottom: 1rem;
     border-bottom: 1px gray solid;
-    background-color: rgb(245, 222, 179);
-    display: flex;
-    flex-direction: column;
+    background-color: $beige;
+    @include flex-column;
     .top-header {
         padding: 2rem;
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         max-width: 100%;
         justify-content: space-between;
         align-items: center;
         .nombre-empresa{
-            display: flex;
-            flex-direction: row;
+            @include flex-row;
             justify-content: center;
         }
         .mi-cuenta-container{
@@ -34,10 +31,10 @@ header{
         }
         .bg-clr {
             --bs-bg-opacity: 1;
-            background-color: rgba(245, 222, 179), var(--bs-bg-opacity) !important;
+            background-color: $beige, var(--bs-bg-opacity) !important;
           }
         .navbar{
-            background-color:rgb(245, 222, 179);
+            background-color: $beige;
         }
     }
     .nav-container{
