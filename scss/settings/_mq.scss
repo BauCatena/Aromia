@@ -50,11 +50,15 @@
         display: flex;
         .nav-alternative{
             display: flex;
+            flex-direction: column;
             width: 45%;
-        }
-        a .nav-alternative-img{
-            width: auto;
-            height: auto;
+            a {
+                width: 100%;
+               
+                .nav-alternative-img{
+                    width: auto;
+                }
+             }   
         }
     }
     main .products{

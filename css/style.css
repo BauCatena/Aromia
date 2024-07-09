@@ -288,11 +288,14 @@ main .text {
   }
   main .nav-alternative-container .nav-alternative {
     display: flex;
+    flex-direction: column;
     width: 45%;
   }
-  main .nav-alternative-container a .nav-alternative-img {
+  main .nav-alternative-container .nav-alternative a {
+    width: 100%;
+  }
+  main .nav-alternative-container .nav-alternative a .nav-alternative-img {
     width: auto;
-    height: auto;
   }
   main .products {
     flex-direction: column;
