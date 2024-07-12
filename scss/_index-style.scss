@@ -6,24 +6,29 @@ main{
         border-top: 1px #000000 solid;
         display: flex;
         flex-flow: row wrap;
-        justify-content: center;
+        justify-content: space-around;
         height: auto ;
         padding: 2rem 0 2rem 0;
-        gap: 1rem;
         .nav-alternative{
             display: flex;
             justify-content: center;
             height: auto;
             width: 30%;
+            .nav-alternative-a{
+                display: flex;
+                @include center;
+            }
+            .nav-alternative-img{
+                transition: .5s;
+                width: 45%;
+            }
         .nav-alternative-img:hover{
           transform: scale(1.2, 1.2);
-          transition-duration: 500ms;
-          transition-timing-function: ease-in-out;
             }
         }
     }
     .heading-alternative{
-        @include flex-row;
+        @include flex-row;  
         @include center;
         img{
             max-width: 5rem;

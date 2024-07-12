@@ -4,7 +4,7 @@ main{
         padding-bottom: 2rem;
         background-color: #ffffff;
         @include flex-row;
-        @include center;
+        text-align: center
     }
     .explain-container{
         @include flex-row;
@@ -14,6 +14,16 @@ main{
         .explain-content{
             padding: 1rem;
             @include center;
+            width: 80%
+        }
+        .img-container{
+            @include flex-row;
+            @include center;
+            width: 20%;
+            padding-left: 1.5rem;
+            img{
+            max-width: 100%;
+            }
         }
     }
     .exp{

@@ -28,7 +28,7 @@ a {
 }
 
 .carousel-inner {
-  height: 30rem;
+  height: max-content;
 }
 
 header {
@@ -125,10 +125,9 @@ main .nav-alternative-container {
   border-top: 1px #000000 solid;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
   height: auto;
   padding: 2rem 0 2rem 0;
-  gap: 1rem;
 }
 main .nav-alternative-container .nav-alternative {
   display: flex;
@@ -136,10 +135,17 @@ main .nav-alternative-container .nav-alternative {
   height: auto;
   width: 30%;
 }
+main .nav-alternative-container .nav-alternative .nav-alternative-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .nav-alternative-container .nav-alternative .nav-alternative-img {
+  transition: 0.5s;
+  width: 45%;
+}
 main .nav-alternative-container .nav-alternative .nav-alternative-img:hover {
   transform: scale(1.2, 1.2);
-  transition-duration: 500ms;
-  transition-timing-function: ease-in-out;
 }
 main .heading-alternative {
   display: flex;
@@ -191,8 +197,7 @@ main .heading-1 {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 main .explain-container {
   display: flex;
@@ -205,6 +210,18 @@ main .explain-container .explain-content {
   padding: 1rem;
   align-items: center;
   justify-content: center;
+  width: 80%;
+}
+main .explain-container .img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  padding-left: 1.5rem;
+}
+main .explain-container .img-container img {
+  max-width: 100%;
 }
 main .exp {
   padding: 1.5rem;
@@ -313,13 +330,16 @@ main .text {
   main .nav-alternative-container .nav-alternative {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
   }
   main .nav-alternative-container .nav-alternative a {
-    width: 100%;
+    width: 90%;
   }
   main .nav-alternative-container .nav-alternative a .nav-alternative-img {
-    width: auto;
+    width: 100%;
   }
   main .products {
     display: flex;
@@ -340,15 +360,19 @@ main .text {
   main .explain-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: justify;
   }
   main .explain-container .img-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 80%;
+    padding: 0rem;
   }
   main .explain-container .img-container img {
-    width: 90%;
+    width: 100%;
   }
   main .events-container {
     flex-wrap: wrap;
