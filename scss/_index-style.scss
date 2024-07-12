@@ -15,8 +15,10 @@ main{
             justify-content: center;
             height: auto;
             width: 30%;
-            a img{
-                width: 18rem;
+        .nav-alternative-img:hover{
+          transform: scale(1.2, 1.2);
+          transition-duration: 500ms;
+          transition-timing-function: ease-in-out;
             }
         }
     }

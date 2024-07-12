@@ -1,33 +1,40 @@
-.explain-container{
-    @include flex-row;
-    background-color: $beige;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    .explain-content{
-        padding: 1rem;
-        @include center;
-    }
-}
-.exp{
-    padding: 1.5rem;
-}
-main .event-exp{
-    @include center;
-}
-.events-container{
-    @include flex-row;
-    justify-content: space-evenly;
-    padding: 3rem 1rem 3rem 1rem;
-    .event{
-        padding: 1rem;
-        @include flex-column;
-        @include center;
-        .event-img{
-            max-width: 4rem;
+main{
+
+    .explain-container{
+        @include flex-row;
+        background-color: $beige;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .explain-content{
+            padding: 1rem;
+            @include center;
         }
     }
-}
-main .text{
-    padding-top: 1rem;
-    text-align: center;
+    .exp{
+        padding: 1.5rem;
+    }
+    .event-exp{
+        display: flex;
+        @include center;
+        p{
+            @include center;
+        }
+    }
+    .events-container{
+        @include flex-row;
+        justify-content: space-evenly;
+        padding: 3rem 1rem 3rem 1rem;
+        .event{
+            padding: 1rem;
+            @include flex-column;
+            @include center;
+            .event-img{
+                max-width: 4rem;
+            }
+        }
+    }
+    .text{
+        padding-top: 1rem;
+        text-align: center;
+    }
 }
