@@ -77,6 +77,9 @@
     main .center-h .heading{
         font-size: 1.5rem;
     }
+    main .heading-1{
+        background-color: beige;
+    }
     main .explain-container{
         @include flex-column;
         @include center;

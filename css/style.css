@@ -357,6 +357,9 @@ main .text {
   main .center-h .heading {
     font-size: 1.5rem;
   }
+  main .heading-1 {
+    background-color: beige;
+  }
   main .explain-container {
     display: flex;
     flex-direction: column;
