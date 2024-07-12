@@ -1,5 +1,11 @@
 main{
-
+    .heading-1{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: #ffffff;
+        @include flex-row;
+        @include center;
+    }
     .explain-container{
         @include flex-row;
         background-color: $beige;

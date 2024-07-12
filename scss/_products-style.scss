@@ -15,6 +15,10 @@ main{
         .filtros{
             list-style-type: none;
             @include center;
+            p{
+                font-size: 2rem;
+                font-style: bold;
+            }
         }
     }
 } 

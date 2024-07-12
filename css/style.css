@@ -22,7 +22,7 @@ a {
 .heading {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 0%;
   text-align: center;
 }
@@ -180,7 +180,20 @@ main .products .filtros {
   align-items: center;
   justify-content: center;
 }
+main .products .filtros p {
+  font-size: 2rem;
+  font-style: bold;
+}
 
+main .heading-1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 main .explain-container {
   display: flex;
   flex-direction: row;
